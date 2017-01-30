@@ -17,6 +17,7 @@ public class HomeController {
  
 	@Autowired
 	private TitleListASSIADAO titleListASSIADAO;
+	
 	@RequestMapping("/")
 	public String showHome() {
 		return "index";

@@ -68,9 +68,11 @@ public class TitleListASSIA implements Serializable
 	public void setASSIA(String aSSIA) {
 		ASSIA = aSSIA;
 	}
+	
 	@Override
 	public String toString() {
 		StringBuffer sb=new StringBuffer();
+		
 		sb.append("["+serialTitle+"\n");
 		sb.append(ISSNElectronic+"\n");
 		sb.append(ISSNPrint+"\n");
